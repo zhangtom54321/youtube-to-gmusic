@@ -1,22 +1,6 @@
 '''
 Tom Zhang
-Created October 2018
-
-Converts a Youtube Playlist into a Google Play Music playlist.
-
-You must pip install some stuff
-The first time you run this program on a machine, run:
-    from gmusicapi import Musicmanager
-
-    mm = Musicmanager()
-    mm.perform_oauth()
-
-
-FUTURE ADDITIONS/CHANGES:
-- Hide password when typing
-- Enable Scan & Match
-- Add album art
-- Add track #
+October 2018
 
 '''
 
@@ -29,8 +13,6 @@ from gmusicapi import Musicmanager
 from gmusicapi import Mobileclient
 import datetime
 import shutil
-
-print(datetime.datetime.now().date())
 
 mypath = "music"
 default_url = "https://www.youtube.com/playlist?list=PLMC9KNkIncKtGvr2kFRuXBVmBev6cAJ2u"
