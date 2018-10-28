@@ -36,7 +36,7 @@ and the email & password of the Google account you want the playlist to be added
 >>> Email: <your email>
 >>> Password: <your password>
 ```
-That's it! Sit back and relax until the script finishes running, then sit back and listen to the new playlist on your Google Music account!
+That's it! Sit back and relax until the script finishes running, then sit back and listen to the new playlist on your Google Music account.
 
 ## Future Changes
 - Hide password when typing
