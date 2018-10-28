@@ -1,5 +1,5 @@
 # youtube-to-gmusic
-A Python script that converts a YouTube playlist into a Google Play Music playlist. Just something that I wrote in a few hours one weekend that allows me to play music offline. If you want to convert a Spotify playlist into a Google Play Music playlist, use [this tool](http://www.playlist-converter.net/#/) to convert the Spotify playlist into a YouTube playlist first, then use the script.
+A Python script that converts a YouTube playlist into a Google Play Music playlist. Just something that I wrote in a hour or two one weekend that allows me to play music offline. If you want to convert a Spotify playlist into a Google Play Music playlist, use [this tool](http://www.playlist-converter.net/#/) to convert the Spotify playlist into a YouTube playlist first, then use the script.
 
 It works by first downloading the YouTube playlist as MP4 video files using [PyTube](https://github.com/nficano/pytube), then converting the videos into MP3 files using [MoviePy](https://github.com/Zulko/moviepy). It then uploads the MP3 files as songs to Google Play Music using [gmusicapi](https://github.com/simon-weber/gmusicapi) and adds them to a new playlist.
 
