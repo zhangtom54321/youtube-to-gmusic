@@ -17,6 +17,27 @@ mm = Musicmanager()
 mm.perform_oauth()
 ```
 
+## Usage
+Clone the repository:
+```
+git clone https://github.com/zhangtom54321/youtube-to-gmusic
+```
+Navigate to the repository, and run the script:
+```
+cd youtube-to-gmusic
+python youtube-to-gmusic.py
+```
+Enter the URL of the YouTube playlist
+```
+>>> Enter Youtube Playlist link (press enter for default): <your youtube playlist url>
+```
+and the email & password of the Google account you want the playlist to be added to:
+```
+>>> Email: <your email>
+>>> Password: <your password>
+```
+That's it! Sit back and relax until the script finishes running, then sit back and listen to the new playlist on your Google Music account!
+
 ## Future Changes
 - Hide password when typing
 - Enable Scan & Match
