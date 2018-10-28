@@ -38,6 +38,15 @@ and the email & password of the Google account you want the playlist to be added
 ```
 That's it! Sit back and relax until the script finishes running, then sit back and listen to the new playlist on your Google Music account.
 
+## Possible Errors
+```
+Traceback (most recent call last):
+  File "youtube-to-gmusic.py", line 22, in <module>
+    os.mkdir(mypath)
+PermissionError: [WinError 5] Access is denied: 'music'
+```
+Solution: Make sure that you don't have the "music" folder open in Windows Explorer or Finder, and rerun the program.
+
 ## Future Changes
 - Hide password
 - Enable Scan & Match
