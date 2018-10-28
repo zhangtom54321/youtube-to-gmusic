@@ -45,7 +45,7 @@ Traceback (most recent call last):
     os.mkdir(mypath)
 PermissionError: [WinError 5] Access is denied: 'music'
 ```
-Solution: Make sure that you don't have the "music" folder open in Windows Explorer or Finder, and rerun the program.
+Solution: Make sure that you don't have the "music" folder (where downloaded MP4 and MP3 files are stored) open in Windows Explorer or Finder, and rerun the program.
 
 ## Future Changes
 - Hide password
