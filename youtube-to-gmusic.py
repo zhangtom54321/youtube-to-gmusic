@@ -85,7 +85,7 @@ print(ids)
 
 # Creating new Playlist
 print("\n\nCreating new playlist")
-playlistID = api.create_playlist(str(datetime.datetime.now().date())+" Playlist", description="Automatically created by Tom Zhang's Python script.")
+playlistID = api.create_playlist(str(datetime.datetime.now().date())+" Playlist", description="Automatically created by Tom Zhang's Python script. View the code at https://github.com/zhangtom54321/youtube-to-gmusic")
 print(playlistID)
 
 # Adding songs to playlist

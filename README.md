@@ -39,7 +39,7 @@ and the email & password of the Google account you want the playlist to be added
 That's it! Sit back and relax until the script finishes running, then sit back and listen to the new playlist on your Google Music account.
 
 ## Future Changes
-- Hide password when typing
+- Hide password
 - Enable Scan & Match
 - Add album art
 - Add track #
